@@ -4,6 +4,7 @@ name: Automatic Continuous Integration (ACI)
 # Controls when the workflow execution is triggered (on “pushes” in this case).
 on: [push]
 # A workflow is made up of one or more jobs that run sequentially or in parallel
+
 jobs:
   compile:
     runs-on: ubuntu-latest
