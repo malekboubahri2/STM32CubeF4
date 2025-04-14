@@ -12,7 +12,7 @@ jobs:
     steps:
       # Clone the repository using the predefined "checkout" action.
       - name: Checkout
-        uses: malekboubahri2/actions/checkout@master
+        uses: malekboubahri2/actions/checkout@main
       # Compile the source files using the user-defined "compile" action.
       - name: Compile
         id: compile
